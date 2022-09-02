@@ -1,36 +1,92 @@
-﻿<!DOCTYPE html>
-<html>
-    <head>
-        <title>Page title</title>
-        <style>
-            #top {
-    background-color:black;
-    width:300px;
-    height:300px;
-    position:relative;
-}
-#box {
-    background-color:white;
-    width:30px;
-    height:30px;
-    position:absolute;
-}
-        </style>
-    </head>
-    <body>
-        <div id="top" onclick="move()">
-            <p id="box"></p>
-        </div>
-        <p>Hello welcome to filsredx beta site.</p>
-        <script>
-        var top = document.getElementById("top");
-            var box = document.getElementById("box");
-           var bStyle = box.style;
-           var speed = 0;
-           function move (){
-               speed += 5;
-               bStyle.left = speed +"px";
-           }
-        </script>
-       </body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible"="IE=edge">
+    <meta name="viewport"="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Imprimerie de l'Afrique (Afrique Numerique)">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/home.css">
+</head>
+
+<body>
+    <div>
+        <header>
+            <p>Imprimerie de l'Afrique
+                |
+                Afrique Numerique
+                <br>
+                Imprimerie et Commerce Generale.
+            </p>
+        
+    </header>
+    <hr>
+    <aside>
+        <h1>Nos Services...</h1>
+        <p>Supports de communication et de visibilité, <br>communication événémentiel, commerce général.</p>
+
+        <table>
+            <thead>
+                <tr>
+                    <td><h2>Impression</h2></td>
+                    <td><h2>Impression Numerique</h2></td>
+                    <td><h2>Infographie et Sérigraphie</h2></td>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>
+                        <ul>
+                            <li><a href="#">Flyers</a></li>
+                            <li><a href="#">Affiches</a></li>
+                            <li><a href="#">Calendriers</a></li>
+                            <li><a href="#">Billets d'Invitation</a></li>
+                            <li><a href="#">Carte Visite</a></li>
+                            <li><a href="#">Dépliant</a></li>
+                            <li><a href="#">Carte Scolaire</a></li>
+                            <li><a href="#">Carte Professionnelle</a></li>
+                            <li><a href="#">Carte PVC</a></li>
+                            <li><a href="#">Cachets</a></li>
+                        </ul>
+                    </td>
+                
+                    <td>
+                        <ul>
+                            <li><a href="#">Vinyl (Autocollant)</a></li>
+                            <li><a href="#">Banderolle</a></li>
+                            <li><a href="#">Panneaux publicitaire</a></li>
+                            <li><a href="#">Panneaux Lumineux</a></li>
+                            <li><a href="#">Kakemono</a></li>
+                            <li><a href="#">Gadget</a></li>
+                            <li><a href="#">Impression sur Support</a></li>
+                        </ul>
+                    </td>
+                
+                    <td>
+                        <li><a href="#">T-Shirt</a></li>
+                        <li><a href="#">Polo</a></li>
+                        <li><a href="#">Casquette</a></li>
+                        <li><a href="#">Flocage</a></li>
+                        <li><a href="#">Création de Logo</a></li>
+                        <li><a href="#">Conception Graphique</a></li>
+                        <li><a href="#">Réalisation de Plan 2D et 3D</a></li>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </aside>
+    <hr>
+    <footer>
+        <h3>Vour Plus des informations si-dessous.</h3>
+        <ul>
+            <li><a href="#">Ambasssatna - Avenue Boukasa</a></li>
+            <li><a href="#">Facebook</a></li>
+            <li><a href="tel:+23566289396">Airtel</a> | <a href="tel:+23599289396">Tigo</a></li>
+            <li><a href="mailto:afrique.numerique80@gmail.com">Email</a></li>
+        </ul>
+    </footer>
+    </div>
+    
+</body>
 </html>
